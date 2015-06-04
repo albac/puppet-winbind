@@ -3,7 +3,9 @@ class winbind::config (
   $smb_template    = $::winbind::smb_template,
   $domainadminuser = $::winbind::domainadminuser,
   $domainadminpw   = $::winbind::domainadminpw,
-  $domain          = $::winbind::domain
+  $domain          = $::winbind::domain,
+  $netbiosname     = $::winbind::netbiosname,
+  $realm           = $::winbind::realm
 ) {
 
   # Main samba config file
