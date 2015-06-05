@@ -5,6 +5,7 @@ class winbind (
   $domainadminuser = $::winbind::params::domainadminuser,
   $domainadminpw   = $::winbind::params::domainadminpw,
   $domain          = $::winbind::params::domain,
+  $smb_template    = $::winbind::params::smb_template,
   $realm           = $::winbind::params::realm,
   $netbiosname     = $::winbind::params::netbiosname,
   $winbind_max_domain_connections = $::winbind::params::winbind_max_domain_connections,
