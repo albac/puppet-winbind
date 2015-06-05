@@ -10,6 +10,6 @@ class winbind::params {
   $winbind_max_clients = 200
   $packages = ['samba-winbind-clients','samba-winbind','samba-client']
   $smb_template = 'winbind/smb.conf.erb'
-  $service = 'windbind'
+  $service = 'winbind'
 
 }
